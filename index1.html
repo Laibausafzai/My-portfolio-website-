@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laiba Anwar — Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<body>
+
+<div class="noise"></div>
+
+<nav>
+  <div class="logo">Laiba<span>.dev</span></div>
+  <div class="navlinks">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a href="#contact" class="btn btn-primary" style="padding:9px 18px; font-size:0.85rem;">Hire Me</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-grid">
+    <div>
+      <img src="myphoto.jpg" alt="Laiba Anwar" style="width:150px; height:150px; border-radius:50%; object-fit:cover; border:4px solid #8b5cf6; margin-bottom:24px;">
+      <div class="eyebrow"><span class="dot"></span> Available for freelance work</div>
+      <h1>Building the web,<br> one <span class="grad">function()</span><br>at a time.</h1>
+      <p class="lead">I'm Laiba Anwar, a BS Information technology student learning Full-Stack Development and building real-world projects</p>
+      <div class="btn-row">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#" class="btn btn-ghost" id="resumeBtn">Download Resume</a>
+      </div>
+    </div>
+
+    <div class="terminal">
+      <div class="terminal-bar">
+        <div class="tdot" style="background:#ff5f56;"></div>
+        <div class="tdot" style="background:#ffbd2e;"></div>
+        <div class="tdot" style="background:#27c93f;"></div>
+      </div>
+      <div class="terminal-body" id="typedBox"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-head">
+    <div class="tag">// about me</div>
+    <h2>A little about my journey</h2>
+  </div>
+  <div class="about-grid">
+    <div>
+      <p>I'm currently pursuing my <strong>BS in Information Technology at the University of Swat</strong>, where my interest in how websites actually work turned into a full-on passion for backend development.</p>
+      <p>I started with the fundamentals — how servers work, how data flows between a browser and a database — and built that knowledge into real, working applications. I enjoy the process of taking a problem apart, understanding every piece, and putting it back together as clean, working code.</p>
+      <p>Right now I'm focused on strengthening my JavaScript fundamentals while continuing to build full-stack projects — with the goal of taking on freelance work and growing as a developer every single day.</p>
+    </div>
+    <div class="stats">
+      <div class="stat-card"><div class="num">3+</div><div class="lbl">Projects Built</div></div>
+      <div class="stat-card"><div class="num">MERN</div><div class="lbl">Stack Focus</div></div>
+      <div class="stat-card"><div class="num">JWT</div><div class="lbl">Auth Secured</div></div>
+      <div class="stat-card"><div class="num">100%</div><div class="lbl">Self-Driven</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-head">
+    <div class="tag">// tech stack</div>
+    <h2>Skills & Tools</h2>
+  </div>
+  <div class="skill-groups">
+    <div class="skill-card">
+      <h3><span class="ic">🖥️</span> Backend</h3>
+      <div class="pills">
+        <span class="pill">Node.js</span>
+        <span class="pill">Express.js</span>
+        <span class="pill">REST APIs</span>
+        <span class="pill">JWT Auth</span>
+        <span class="pill">bcrypt</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <h3><span class="ic">🗄️</span> Database</h3>
+      <div class="pills">
+        <span class="pill">MongoDB</span>
+        <span class="pill">Mongoose</span>
+        <span class="pill">MongoDB Atlas</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <h3><span class="ic">🎨</span> Frontend</h3>
+      <div class="pills">
+        <span class="pill">HTML5</span>
+        <span class="pill">CSS3</span>
+        <span class="pill">JavaScript</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <h3><span class="ic">🛠️</span> Tools</h3>
+      <div class="pills">
+        <span class="pill">Postman</span>
+        <span class="pill">Git & GitHub</span>
+        <span class="pill">VS Code</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <h3><span class="ic">🔐</span> Concepts</h3>
+      <div class="pills">
+        <span class="pill">CRUD</span>
+        <span class="pill">Middleware</span>
+        <span class="pill">Authentication</span>
+        <span class="pill">Async/Await</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-head">
+    <div class="tag">// selected work</div>
+    <h2>Projects</h2>
+  </div>
+  <div class="projects-grid">
+
+    <div class="proj-card">
+      <div class="proj-top p1">✅</div>
+      <div class="proj-body">
+        <h3>Full-Stack Todo App</h3>
+        <p>A secure task management app with user registration, login, and JWT-protected routes — every user only sees their own todos.</p>
+        <div class="proj-tags">
+          <span>Node.js</span><span>Express</span><span>MongoDB</span><span>JWT</span>
+        </div>
+        <a href="#" class="proj-link">View Project →</a>
+      </div>
+    </div>
+
+    <div class="proj-card">
+      <div class="proj-top p2">🧮</div>
+      <div class="proj-body">
+        <h3>Calculator App</h3>
+        <p>A clean, responsive calculator built to practice core JavaScript logic — handling operations, input validation, and real-time UI updates.</p>
+        <div class="proj-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <a href="#" class="proj-link">View Project →</a>
+      </div>
+    </div>
+
+    <div class="proj-card">
+      <div class="proj-top p3">⛅</div>
+      <div class="proj-body">
+        <h3>Weather App</h3>
+        <p>A weather lookup app that fetches live data from a public API and displays current conditions for any city, with a simple, readable UI.</p>
+        <div class="proj-tags">
+          <span>JavaScript</span><span>API Integration</span><span>CSS</span>
+        </div>
+        <a href="#" class="proj-link">View Project →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="section-head">
+    <div class="tag">// education</div>
+    <h2>Academic Background</h2>
+  </div>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="period">Current</div>
+      <h3>BS in Information Technology</h3>
+      <p>University of Swat — building a strong foundation in computing, programming, and software development while working on real-world projects alongside coursework.</p>
+    </div>
+    <div class="tl-item">
+      <div class="period">Completed</div>
+      <h3>Intermediate / College</h3>
+      <p>Completed FSc (pre-medical) at Antalya School and College. Later pursued a passion for technology by enrolling in BS Information Technology.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-wrap">
+    <h2>Let's build something together.</h2>
+    <p>Open to freelance projects, internships, and collaborations. Feel free to reach out.</p>
+    <div class="contact-links">
+      <a href="mailto:ghutaiyousafzai@gmail.com" class="clink">✉️ ghutaiyousafzai@gmail.com</a>
+      <a href="https://linkedin.com/in/laiba-anwar" target="_blank" class="clink">💼 LinkedIn — Laiba Anwar</a>
+      <a href="#" class="clink">💻 GitHub</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> Laiba Anwar. Built with HTML, CSS & JavaScript.
+</footer>
+
+<script src="script1.js"></script>
+</body>
+</html>
